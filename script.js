@@ -51,7 +51,14 @@ function add() {
 
         // This one code is for the delete data.
         dbtbut.addEventListener("click", () => {
-            tsk_d.remove();
+            const dlt = document.getElementById('dlt');
+            dlt.appendChild(tsk_d);            
+            textInp.setAttribute("readonly", "");
+            textInp.style.width = "22rem";
+            cbc.remove();
+            dbtbut.remove();
+            ebtbut.remove();
+            // tsk_d.remove();
             console.log("Task Deleted.");
         });
 
