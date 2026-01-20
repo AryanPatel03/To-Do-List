@@ -1,0 +1,54 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f1f;
+}
+
+
+.todo{
+    background-color: #f9f9f9;
+    padding: 36px;
+}
+
+.txt{
+    padding: 9px;
+}
+
+#btn{
+    padding: 11px 22px;
+    background-color: burlywood;
+    border: none;
+    cursor: pointer;
+}
+
+.cr{
+    color: red;
+}
+
+.cbn {
+    display: flex;
+    /* flex-direction: row; */
+    gap: 5px;
+    padding-bottom: 6px;
+}
+
+.spbt{
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    border-bottom: 0.1px solid;
+    background-color: transparent;
+}
+/* 
+#new{
+    display: flex;
+    flex-direction: column;
+} */
