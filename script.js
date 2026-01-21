@@ -85,7 +85,7 @@ function add() {
             // cpts.addEventListener("click", () => {  //  });
         });
     }
-    // This line is for when we add the task after goes the text into pending then in add task textbox will clear the value which we passed.
+    // This line is for when we add the task after goes the text into pending tasklist then where we are passing the text textbox will clear the value which we passed.
     document.getElementById('text').value = '';
 }    
         
